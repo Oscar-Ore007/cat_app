@@ -23,9 +23,13 @@
                                 <li>other cats</li>
                             </ol>
                         <form action="/submit-cat-photo">
-                            <input 
+                            <label><input id="indoor" type="radio" name="indoor-outdoor"> indoor
+                            </label>
+                            <label><input type="radio" name="indoor-outdoor"> outdoor
+                            </label>
+                            <input id="outdoor"
                             type="text" 
-                            placeholder="cat photo url">
+                            placeholder="cat photo url" required>
                             <button type="submit">Submit your photo!</button>
                         </form>
                         </main>
